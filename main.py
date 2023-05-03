@@ -89,7 +89,7 @@ def submit_file():
 root = tk.Tk()
 root.title('Smart Temperature Forecaster')
 root.geometry("{0}x{1}+0+0".format(root.winfo_screenwidth(), root.winfo_screenheight()))
-
+root.config(bg='#D3D3D3')
 # Create the main frame with a boundary
 main_frame = tk.Frame(root, bd=2, relief='groove')
 main_frame.pack(padx=20, pady=20)
